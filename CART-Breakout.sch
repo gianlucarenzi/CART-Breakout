@@ -1,0 +1,553 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:4xxx
+LIBS:4xxx_IEEE
+LIBS:74xGxx
+LIBS:74xx_IEEE
+LIBS:Amplifier_Audio
+LIBS:Amplifier_Buffer
+LIBS:Amplifier_Current
+LIBS:Amplifier_Difference
+LIBS:Amplifier_Instrumentation
+LIBS:Amplifier_Operational
+LIBS:Amplifier_Video
+LIBS:Analog
+LIBS:Analog_ADC
+LIBS:Analog_DAC
+LIBS:Analog_Switch
+LIBS:Audio
+LIBS:Battery_Management
+LIBS:Comparator
+LIBS:Connector
+LIBS:Connector_Generic
+LIBS:Connector_Generic_MountingPin
+LIBS:Connector_Generic_Shielded
+LIBS:Converter_ACDC
+LIBS:Converter_DCDC
+LIBS:CPLD_Altera
+LIBS:CPLD_Xilinx
+LIBS:CPU
+LIBS:CPU_NXP_6800
+LIBS:CPU_NXP_68000
+LIBS:CPU_NXP_IMX
+LIBS:CPU_PowerPC
+LIBS:Device
+LIBS:Diode
+LIBS:Diode_Bridge
+LIBS:Diode_Laser
+LIBS:Display_Character
+LIBS:Display_Graphic
+LIBS:Driver_Display
+LIBS:Driver_FET
+LIBS:Driver_Haptic
+LIBS:Driver_LED
+LIBS:Driver_Motor
+LIBS:Driver_Relay
+LIBS:DSP_AnalogDevices
+LIBS:DSP_Freescale
+LIBS:DSP_Microchip_DSPIC33
+LIBS:DSP_Motorola
+LIBS:DSP_Texas
+LIBS:Fiber_Optic
+LIBS:Filter
+LIBS:FPGA_Lattice
+LIBS:FPGA_Microsemi
+LIBS:FPGA_Xilinx
+LIBS:FPGA_Xilinx_Artix7
+LIBS:FPGA_Xilinx_Kintex7
+LIBS:FPGA_Xilinx_Spartan6
+LIBS:FPGA_Xilinx_Virtex5
+LIBS:FPGA_Xilinx_Virtex6
+LIBS:FPGA_Xilinx_Virtex7
+LIBS:GPU
+LIBS:Graphic
+LIBS:Interface
+LIBS:Interface_CAN_LIN
+LIBS:Interface_CurrentLoop
+LIBS:Interface_Ethernet
+LIBS:Interface_Expansion
+LIBS:Interface_HDMI
+LIBS:Interface_HID
+LIBS:Interface_LineDriver
+LIBS:Interface_Optical
+LIBS:Interface_Telecom
+LIBS:Interface_UART
+LIBS:Interface_USB
+LIBS:Isolator
+LIBS:Isolator_Analog
+LIBS:Jumper
+LIBS:LED
+LIBS:Logic_LevelTranslator
+LIBS:Logic_Programmable
+LIBS:MCU_AnalogDevices
+LIBS:MCU_Cypress
+LIBS:MCU_Espressif
+LIBS:MCU_Intel
+LIBS:MCU_Microchip_8051
+LIBS:MCU_Microchip_ATmega
+LIBS:MCU_Microchip_ATtiny
+LIBS:MCU_Microchip_AVR
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_Microchip_SAMD
+LIBS:MCU_Microchip_SAME
+LIBS:MCU_Microchip_SAML
+LIBS:MCU_Module
+LIBS:MCU_Nordic
+LIBS:MCU_NXP_ColdFire
+LIBS:MCU_NXP_HC11
+LIBS:MCU_NXP_HC12
+LIBS:MCU_NXP_HCS12
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_MAC7100
+LIBS:MCU_NXP_MCore
+LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
+LIBS:MCU_SiFive
+LIBS:MCU_SiliconLabs
+LIBS:MCU_STC
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32F0
+LIBS:MCU_ST_STM32F1
+LIBS:MCU_ST_STM32F2
+LIBS:MCU_ST_STM32F3
+LIBS:MCU_ST_STM32F4
+LIBS:MCU_ST_STM32F7
+LIBS:MCU_ST_STM32H7
+LIBS:MCU_ST_STM32L0
+LIBS:MCU_ST_STM32L1
+LIBS:MCU_ST_STM32L4
+LIBS:MCU_ST_STM32L4+
+LIBS:MCU_Texas
+LIBS:MCU_Texas_MSP430
+LIBS:Mechanical
+LIBS:Memory_EEPROM
+LIBS:Memory_EPROM
+LIBS:Memory_Flash
+LIBS:Memory_NVRAM
+LIBS:Memory_RAM
+LIBS:Memory_ROM
+LIBS:Memory_UniqueID
+LIBS:Motor
+LIBS:Oscillator
+LIBS:Potentiometer_Digital
+LIBS:Power_Management
+LIBS:Power_Protection
+LIBS:Power_Supervisor
+LIBS:pspice
+LIBS:Reference_Current
+LIBS:Reference_Voltage
+LIBS:Regulator_Controller
+LIBS:Regulator_Current
+LIBS:Regulator_Linear
+LIBS:Regulator_SwitchedCapacitor
+LIBS:Regulator_Switching
+LIBS:Relay
+LIBS:Relay_SolidState
+LIBS:RF
+LIBS:RF_AM_FM
+LIBS:RF_Amplifier
+LIBS:RF_Bluetooth
+LIBS:RF_Filter
+LIBS:RF_GPS
+LIBS:RF_GSM
+LIBS:RF_Mixer
+LIBS:RF_Module
+LIBS:RF_RFID
+LIBS:RF_Switch
+LIBS:RF_WiFi
+LIBS:RF_ZigBee
+LIBS:Security
+LIBS:Sensor
+LIBS:Sensor_Audio
+LIBS:Sensor_Current
+LIBS:Sensor_Gas
+LIBS:Sensor_Humidity
+LIBS:Sensor_Magnetic
+LIBS:Sensor_Motion
+LIBS:Sensor_Optical
+LIBS:Sensor_Pressure
+LIBS:Sensor_Proximity
+LIBS:Sensor_Temperature
+LIBS:Sensor_Touch
+LIBS:Sensor_Voltage
+LIBS:Simulation_SPICE
+LIBS:Switch
+LIBS:Timer
+LIBS:Timer_PLL
+LIBS:Timer_RTC
+LIBS:Transformer
+LIBS:Transistor_Array
+LIBS:Transistor_BJT
+LIBS:Transistor_FET
+LIBS:Transistor_IGBT
+LIBS:Triac_Thyristor
+LIBS:Valve
+LIBS:Video
+LIBS:AmigaComponents
+LIBS:CART-Breakout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "ATARI CART Port Breakout board"
+Date "2019-04-10"
+Rev "1.0"
+Comp "RetroBit Lab"
+Comment1 "ATARI 130XE CART Port Breakout Board"
+Comment2 "Prototype Board for CART Connector"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR01
+U 1 1 5CADBE4B
+P 8900 1800
+F 0 "#PWR01" H 8900 1550 50  0001 C CNN
+F 1 "GND" H 8900 1650 50  0000 C CNN
+F 2 "" H 8900 1800 50  0001 C CNN
+F 3 "" H 8900 1800 50  0001 C CNN
+	1    8900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 5CADBE61
+P 8900 1150
+F 0 "#PWR02" H 8900 1000 50  0001 C CNN
+F 1 "VCC" H 8900 1300 50  0000 C CNN
+F 2 "" H 8900 1150 50  0001 C CNN
+F 3 "" H 8900 1150 50  0001 C CNN
+	1    8900 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 5CADBE87
+P 8900 1350
+F 0 "R1" H 8930 1370 50  0000 L CNN
+F 1 "1.5K" H 8930 1310 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 8900 1350 50  0001 C CNN
+F 3 "" H 8900 1350 50  0000 C CNN
+	1    8900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_Small D1
+U 1 1 5CADBF1E
+P 8900 1550
+F 0 "D1" H 8850 1675 50  0000 L CNN
+F 1 "YELLOW" V 8900 1200 50  0000 L CNN
+F 2 "LEDs:LED_1206" V 8900 1550 50  0001 C CNN
+F 3 "" V 8900 1550 50  0000 C CNN
+	1    8900 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5CADC047
+P 6750 2000
+F 0 "#PWR03" H 6750 1750 50  0001 C CNN
+F 1 "GND" H 6750 1850 50  0000 C CNN
+F 2 "" H 6750 2000 50  0001 C CNN
+F 3 "" H 6750 2000 50  0001 C CNN
+	1    6750 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L VCC #PWR04
+U 1 1 5CADC066
+P 4750 3900
+F 0 "#PWR04" H 4750 3750 50  0001 C CNN
+F 1 "VCC" H 4750 4050 50  0000 C CNN
+F 2 "" H 4750 3900 50  0001 C CNN
+F 3 "" H 4750 3900 50  0001 C CNN
+	1    4750 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 5CADC079
+P 9700 1150
+F 0 "#FLG05" H 9700 1225 50  0001 C CNN
+F 1 "PWR_FLAG" H 9700 1300 50  0000 C CNN
+F 2 "" H 9700 1150 50  0001 C CNN
+F 3 "" H 9700 1150 50  0001 C CNN
+	1    9700 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR06
+U 1 1 5CADC0A7
+P 9700 1150
+F 0 "#PWR06" H 9700 1000 50  0001 C CNN
+F 1 "VCC" H 9700 1300 50  0000 C CNN
+F 2 "" H 9700 1150 50  0001 C CNN
+F 3 "" H 9700 1150 50  0001 C CNN
+	1    9700 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG07
+U 1 1 5CADC0BB
+P 10200 1150
+F 0 "#FLG07" H 10200 1225 50  0001 C CNN
+F 1 "PWR_FLAG" H 10200 1300 50  0000 C CNN
+F 2 "" H 10200 1150 50  0001 C CNN
+F 3 "" H 10200 1150 50  0001 C CNN
+	1    10200 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5CADC0CF
+P 10200 1150
+F 0 "#PWR08" H 10200 900 50  0001 C CNN
+F 1 "GND" H 10200 1000 50  0000 C CNN
+F 2 "" H 10200 1150 50  0001 C CNN
+F 3 "" H 10200 1150 50  0001 C CNN
+	1    10200 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATARI-CARTRIDGE CART1
+U 1 1 5CB3934B
+P 5750 2950
+F 0 "CART1" H 6200 3800 50  0000 C CNN
+F 1 "ATARI-CARTRIDGE" H 5800 3050 50  0000 C CNN
+F 2 "RetroBitLab:ATARI-LEFT-CARTRIDGE" H 5750 2100 50  0001 C CNN
+F 3 "" H 5750 2100 50  0000 C CNN
+	1    5750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X05 P3
+U 1 1 5CB3941D
+P 3800 4850
+F 0 "P3" H 3800 5150 50  0000 C CNN
+F 1 "CONN_01X05" V 3900 4850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 3800 4850 50  0001 C CNN
+F 3 "" H 3800 4850 50  0000 C CNN
+	1    3800 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X05 P2
+U 1 1 5CB39488
+P 2850 4850
+F 0 "P2" H 2850 5150 50  0000 C CNN
+F 1 "CONN_01X05" V 2950 4850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 2850 4850 50  0001 C CNN
+F 3 "" H 2850 4850 50  0000 C CNN
+	1    2850 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X05 P1
+U 1 1 5CB395D5
+P 1950 4850
+F 0 "P1" H 1950 5150 50  0000 C CNN
+F 1 "CONN_01X05" V 2050 4850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 1950 4850 50  0001 C CNN
+F 3 "" H 1950 4850 50  0000 C CNN
+	1    1950 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X05 P6
+U 1 1 5CB39758
+P 9350 4850
+F 0 "P6" H 9350 5150 50  0000 C CNN
+F 1 "CONN_01X05" V 9450 4850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 9350 4850 50  0001 C CNN
+F 3 "" H 9350 4850 50  0000 C CNN
+	1    9350 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X05 P5
+U 1 1 5CB3975E
+P 8400 4850
+F 0 "P5" H 8400 5150 50  0000 C CNN
+F 1 "CONN_01X05" V 8500 4850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 8400 4850 50  0001 C CNN
+F 3 "" H 8400 4850 50  0000 C CNN
+	1    8400 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X05 P4
+U 1 1 5CB39764
+P 7350 4850
+F 0 "P4" H 7350 5150 50  0000 C CNN
+F 1 "CONN_01X05" V 7450 4850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 7350 4850 50  0001 C CNN
+F 3 "" H 7350 4850 50  0000 C CNN
+	1    7350 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 1150 8900 1250
+Wire Wire Line
+	8900 1650 8900 1800
+Wire Wire Line
+	3600 3300 4850 3300
+Wire Wire Line
+	3700 3400 4850 3400
+Wire Wire Line
+	3800 3500 4850 3500
+Wire Wire Line
+	3900 3600 4850 3600
+Wire Wire Line
+	4000 3700 4850 3700
+Wire Wire Line
+	3600 3300 3600 4650
+Wire Wire Line
+	3700 3400 3700 4650
+Wire Wire Line
+	3800 3500 3800 4650
+Wire Wire Line
+	3900 3600 3900 4650
+Wire Wire Line
+	4000 3700 4000 4650
+Wire Wire Line
+	3050 3200 4850 3200
+Wire Wire Line
+	2950 3100 4850 3100
+Wire Wire Line
+	2850 3000 4850 3000
+Wire Wire Line
+	2750 2900 4850 2900
+Wire Wire Line
+	2650 2800 4850 2800
+Wire Wire Line
+	2650 2800 2650 4650
+Wire Wire Line
+	2750 2900 2750 4650
+Wire Wire Line
+	2850 3000 2850 4650
+Wire Wire Line
+	2950 3100 2950 4650
+Wire Wire Line
+	3050 3200 3050 4650
+Wire Wire Line
+	2050 2600 4850 2600
+Wire Wire Line
+	1950 2500 4850 2500
+Wire Wire Line
+	1850 2400 4850 2400
+Wire Wire Line
+	1750 2300 4850 2300
+Wire Wire Line
+	2150 2700 4850 2700
+Wire Wire Line
+	1750 2300 1750 4650
+Wire Wire Line
+	1850 2400 1850 4650
+Wire Wire Line
+	1950 2500 1950 4650
+Wire Wire Line
+	2050 2600 2050 4650
+Wire Wire Line
+	2150 2700 2150 4650
+Wire Wire Line
+	6650 3300 7550 3300
+Wire Wire Line
+	6650 3400 7450 3400
+Wire Wire Line
+	6650 3500 7350 3500
+Wire Wire Line
+	6650 3600 7250 3600
+Wire Wire Line
+	6650 3700 7150 3700
+Wire Wire Line
+	4750 3500 4750 3900
+Connection ~ 4750 3500
+Wire Wire Line
+	7150 3700 7150 4650
+Wire Wire Line
+	7250 3600 7250 4650
+Wire Wire Line
+	7350 3500 7350 4650
+Wire Wire Line
+	7450 3400 7450 4650
+Wire Wire Line
+	7550 3300 7550 4650
+Wire Wire Line
+	6650 3200 8200 3200
+Wire Wire Line
+	8200 3200 8200 4650
+Wire Wire Line
+	6650 3100 8300 3100
+Wire Wire Line
+	8300 3100 8300 4650
+Wire Wire Line
+	6650 3000 8400 3000
+Wire Wire Line
+	8400 3000 8400 4650
+Wire Wire Line
+	6650 2900 8500 2900
+Wire Wire Line
+	8500 2900 8500 4650
+Wire Wire Line
+	6650 2800 8600 2800
+Wire Wire Line
+	8600 2800 8600 4650
+Wire Wire Line
+	6650 2700 9150 2700
+Wire Wire Line
+	9150 2700 9150 4650
+Wire Wire Line
+	6650 2600 9250 2600
+Wire Wire Line
+	9250 2600 9250 4650
+Wire Wire Line
+	6650 2500 9350 2500
+Wire Wire Line
+	9350 2500 9350 4650
+Wire Wire Line
+	6650 2400 9450 2400
+Wire Wire Line
+	9450 2400 9450 4650
+Wire Wire Line
+	6650 2300 9550 2300
+Wire Wire Line
+	9550 2300 9550 4650
+Wire Wire Line
+	6750 2400 6750 2000
+Connection ~ 6750 2400
+$EndSCHEMATC
