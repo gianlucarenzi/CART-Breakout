@@ -7,15 +7,15 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file 'CART-Breakout.drl' contains
+Drill file 'CART-Breakout-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  1,02mm  0,040"  (30 holes)
+    T1  1.00mm  0.039"  (30 holes)
 
     Total plated holes count 30
 
 
-Not plated through holes are merged with plated holes
+Drill file 'CART-Breakout-NPTH.drl' contains
     unplated through holes:
     =============================================================
 
