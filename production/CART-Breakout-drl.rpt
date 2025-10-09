@@ -1,5 +1,5 @@
-Drill report for /home/debian/Progetti/ATARI/CART-Breakout/CART-Breakout.kicad_pcb
-Created on Sun 14 Apr 2019 23:19:10 CEST
+Drill report for CART-Breakout.kicad_pcb
+Created on 2025-10-09T13:03:09+0200
 
 Copper Layer Stackup:
     =============================================================
@@ -10,9 +10,10 @@ Copper Layer Stackup:
 Drill file 'CART-Breakout-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  1.00mm  0.039"  (30 holes)
+    T1  0.400mm  0.0157"  (1 hole)
+    T2  1.000mm  0.0394"  (30 holes)
 
-    Total plated holes count 30
+    Total plated holes count 31
 
 
 Drill file 'CART-Breakout-NPTH.drl' contains
