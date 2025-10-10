@@ -229,7 +229,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "endpoint_off_grid|2260600|383540|c62d261b-27dd-4753-b5dc-e721d2b1b9ad|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "endpoint_off_grid|2260600|434340|626cf526-5eb2-4961-98ec-06f578d3d793|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "endpoint_off_grid|2260600|434340|d481136a-2baf-4b4f-8eea-cd650a3accd7|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -742,7 +755,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "Pcbnew",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "./",
     "space_save_all_events": true,
