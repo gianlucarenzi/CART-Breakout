@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.5"
     },
-    "CreationDate": "2025-10-09T13:03:13+02:00"
+    "CreationDate": "2025-10-10T12:12:09+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -15,7 +15,7 @@
     },
     "Size": {
       "X": 47.15,
-      "Y": 50.15
+      "Y": 50.48
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -54,12 +54,12 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CART-Breakout-F_SilkS.gto",
+      "Path": "CART-Breakout-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CART-Breakout-B_SilkS.gbo",
+      "Path": "CART-Breakout-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },

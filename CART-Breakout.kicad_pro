@@ -52,7 +52,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_over_copper|131375037|70440352|5a02f94c-689f-472a-8fe0-77217e402c54|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|131375037|71839648|9b3d48b0-b4a8-42fc-90fb-94ef8b02cb94|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -83,7 +92,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -101,7 +110,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -229,20 +238,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "endpoint_off_grid|2260600|383540|c62d261b-27dd-4753-b5dc-e721d2b1b9ad|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "endpoint_off_grid|2260600|434340|626cf526-5eb2-4961-98ec-06f578d3d793|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "endpoint_off_grid|2260600|434340|d481136a-2baf-4b4f-8eea-cd650a3accd7|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },

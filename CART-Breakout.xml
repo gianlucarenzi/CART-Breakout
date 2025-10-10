@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<export version="D">
+<export version="E">
   <design>
-    <source>/home/gianluca/Progetti-CVS/ATARI/CART-Breakout/CART-Breakout.sch</source>
-    <date>Thu 24 Jul 2025 10:06:50 AM CEST</date>
-    <tool>Eeschema 5.1.9+dfsg1-1+deb11u1</tool>
+    <source>/home/gianluca/Progetti-CVS/ATARI/CART-Breakout/CART-Breakout.kicad_sch</source>
+    <date>2025-10-10T12:13:50+0200</date>
+    <tool>Eeschema 9.0.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ATARI CART Port Breakout board</title>
         <company>RetroBit Lab</company>
         <rev>2.0</rev>
         <date>2025-07-24</date>
-        <source>CART-Breakout.sch</source>
+        <source>CART-Breakout.kicad_sch</source>
         <comment number="1" value="ATARI 130XE CART Port Breakout Board"/>
         <comment number="2" value="Prototype Board for CART Connector"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
       </title_block>
     </sheet>
   </design>
@@ -22,90 +27,192 @@
     <comp ref="CART1">
       <value>ATARI-CARTRIDGE</value>
       <footprint>RetroBitLab:ATARI-LEFT-CARTRIDGE</footprint>
+      <fields>
+        <field name="Footprint">RetroBitLab:ATARI-LEFT-CARTRIDGE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="RetroBitLab" part="ATARI-CARTRIDGE" description="Connector CARTRIDGE ATARI BUS (LEFT)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CART-Breakout.kicad_sch"/>
+      <property name="ki_keywords" value="CARTRIDGE ATARI LEFT"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CB3934B</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005cb3934b</tstamps>
     </comp>
-    <comp ref="P6">
-      <value>Conn_01x05</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+    <comp ref="LD1">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XINGLIGHT-XL-3216SURC_C965822.pdf</datasheet>
+      <description>20mA 225mcd Water Clear op View Mount 615nm~630nm Red 120° 50mW 2.4V 1206 LED Indication - Discrete ROHS</description>
+      <fields>
+        <field name="LCSC">C965822</field>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XINGLIGHT-XL-3216SURC_C965822.pdf</field>
+        <field name="Description">20mA 225mcd Water Clear op View Mount 615nm~630nm Red 120° 50mW 2.4V 1206 LED Indication - Discrete ROHS</field>
+      </fields>
+      <libsource lib="CLED1206" part="RED" description="20mA 225mcd Water Clear op View Mount 615nm~630nm Red 120° 50mW 2.4V 1206 LED Indication - Discrete ROHS"/>
+      <property name="LCSC" value="C965822"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CART-Breakout.kicad_sch"/>
+      <property name="ki_keywords" value="CLED1206RED"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>68820B4D</tstamp>
-    </comp>
-    <comp ref="P5">
-      <value>Conn_01x05</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>688216D3</tstamp>
-    </comp>
-    <comp ref="P4">
-      <value>Conn_01x05</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>68821C85</tstamp>
-    </comp>
-    <comp ref="P3">
-      <value>Conn_01x05</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>68822BFA</tstamp>
-    </comp>
-    <comp ref="P2">
-      <value>Conn_01x05</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>68823121</tstamp>
+      <tstamps>6dbb9ab9-dec7-4f39-99f7-7cef1667d3dd</tstamps>
     </comp>
     <comp ref="P1">
       <value>Conn_01x05</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CART-Breakout.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>688235A8</tstamp>
+      <tstamps>00000000-0000-0000-0000-0000688235a8</tstamps>
     </comp>
-    <comp ref="D1">
-      <value>YELLOW</value>
-      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+    <comp ref="P2">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CART-Breakout.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>6884EAB3</tstamp>
+      <tstamps>00000000-0000-0000-0000-000068823121</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CART-Breakout.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000068822bfa</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CART-Breakout.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000068821c85</tstamps>
+    </comp>
+    <comp ref="P5">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CART-Breakout.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000688216d3</tstamps>
+    </comp>
+    <comp ref="P6">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CART-Breakout.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000068820b4d</tstamps>
     </comp>
     <comp ref="R1">
-      <value>1.5K</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0805W8F1001T5E_C17513.pdf</datasheet>
+      <description>125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS</description>
+      <fields>
+        <field name="LCSC">C17513</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet">https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0805W8F1001T5E_C17513.pdf</field>
+        <field name="Description">125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS</field>
+      </fields>
+      <libsource lib="CRES0805" part="1K" description="125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C17513"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CART-Breakout.kicad_sch"/>
+      <property name="ki_keywords" value="CRES08051K1%1/8W"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>6885088D</tstamp>
-    </comp>
-    <comp ref="L2">
-      <value>LOGO</value>
-      <footprint>Symbol:KiCad-Logo2_5mm_SilkScreen</footprint>
-      <libsource lib="RetroBitLab" part="LOGO" description="Any valid LOGO Images can be placed here"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6882FEC0</tstamp>
-    </comp>
-    <comp ref="L1">
-      <value>LOGO</value>
-      <footprint>Symbol:OSHW-Logo2_7.3x6mm_SilkScreen</footprint>
-      <libsource lib="RetroBitLab" part="LOGO" description="Any valid LOGO Images can be placed here"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>688303C7</tstamp>
+      <tstamps>c784a8c7-f5a5-452f-bb10-9d85050426ea</tstamps>
     </comp>
   </components>
   <libparts>
+    <libpart lib="CLED1206" part="RED">
+      <description>20mA 225mcd Water Clear op View Mount 615nm~630nm Red 120° 50mW 2.4V 1206 LED Indication - Discrete ROHS</description>
+      <docs>https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XINGLIGHT-XL-3216SURC_C965822.pdf</docs>
+      <fields>
+        <field name="Reference">LD</field>
+        <field name="Value">RED</field>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XINGLIGHT-XL-3216SURC_C965822.pdf</field>
+        <field name="Description">20mA 225mcd Water Clear op View Mount 615nm~630nm Red 120° 50mW 2.4V 1206 LED Indication - Discrete ROHS</field>
+        <field name="LCSC">C965822</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CRES0805" part="1K">
+      <description>125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS</description>
+      <docs>https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0805W8F1001T5E_C17513.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1K</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet">https://lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-0805W8F1001T5E_C17513.pdf</field>
+        <field name="Description">125mW Thick Film Resistor 150V ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C17513</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x05">
       <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -115,6 +222,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_01x05</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -124,74 +234,45 @@
         <pin num="5" name="Pin_5" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="LED_Small_ALT">
-      <description>Light emitting diode, small symbol, filled shape</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>LED*</fp>
-        <fp>LED_SMD:*</fp>
-        <fp>LED_THT:*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED_Small_ALT</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="R_Small">
-      <description>Resistor, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="RetroBitLab" part="ATARI-CARTRIDGE">
       <description>Connector CARTRIDGE ATARI BUS (LEFT)</description>
       <fields>
         <field name="Reference">CART</field>
         <field name="Value">ATARI-CARTRIDGE</field>
+        <field name="Footprint">RetroBitLab:ATARI-LEFT-CARTRIDGE</field>
+        <field name="Datasheet"/>
+        <field name="Description">Connector CARTRIDGE ATARI BUS (LEFT)</field>
       </fields>
       <pins>
-        <pin num="1" name="~S4" type="input"/>
-        <pin num="2" name="A3" type="BiDi"/>
-        <pin num="3" name="A2" type="BiDi"/>
-        <pin num="4" name="A1" type="BiDi"/>
-        <pin num="5" name="A0" type="BiDi"/>
-        <pin num="6" name="D4" type="BiDi"/>
-        <pin num="7" name="D5" type="BiDi"/>
+        <pin num="1" name="~{S4}" type="input"/>
+        <pin num="2" name="A3" type="bidirectional"/>
+        <pin num="3" name="A2" type="bidirectional"/>
+        <pin num="4" name="A1" type="bidirectional"/>
+        <pin num="5" name="A0" type="bidirectional"/>
+        <pin num="6" name="D4" type="bidirectional"/>
+        <pin num="7" name="D5" type="bidirectional"/>
         <pin num="8" name="D2" type="passive"/>
-        <pin num="9" name="D1" type="BiDi"/>
-        <pin num="10" name="D0" type="BiDi"/>
-        <pin num="11" name="D6" type="BiDi"/>
-        <pin num="12" name="~S5" type="input"/>
+        <pin num="9" name="D1" type="bidirectional"/>
+        <pin num="10" name="D0" type="bidirectional"/>
+        <pin num="11" name="D6" type="bidirectional"/>
+        <pin num="12" name="~{S5}" type="input"/>
         <pin num="13" name="VCC" type="power_in"/>
         <pin num="14" name="RD5" type="input"/>
-        <pin num="15" name="~CCTL" type="BiDi"/>
-        <pin num="A" name="RD4" type="BiDi"/>
+        <pin num="15" name="~{CCTL}" type="bidirectional"/>
+        <pin num="A" name="RD4" type="bidirectional"/>
         <pin num="B" name="GND" type="power_in"/>
-        <pin num="C" name="A4" type="BiDi"/>
-        <pin num="D" name="A5" type="BiDi"/>
-        <pin num="E" name="A6" type="BiDi"/>
-        <pin num="F" name="A7" type="BiDi"/>
-        <pin num="H" name="A8" type="BiDi"/>
-        <pin num="J" name="A9" type="BiDi"/>
-        <pin num="K" name="A12" type="BiDi"/>
-        <pin num="L" name="D3" type="BiDi"/>
-        <pin num="M" name="D7" type="BiDi"/>
-        <pin num="N" name="A11" type="BiDi"/>
-        <pin num="P" name="A10" type="BiDi"/>
-        <pin num="R" name="R/~W" type="BiDi"/>
+        <pin num="C" name="A4" type="bidirectional"/>
+        <pin num="D" name="A5" type="bidirectional"/>
+        <pin num="E" name="A6" type="bidirectional"/>
+        <pin num="F" name="A7" type="bidirectional"/>
+        <pin num="H" name="A8" type="bidirectional"/>
+        <pin num="J" name="A9" type="bidirectional"/>
+        <pin num="K" name="A12" type="bidirectional"/>
+        <pin num="L" name="D3" type="bidirectional"/>
+        <pin num="M" name="D7" type="bidirectional"/>
+        <pin num="N" name="A11" type="bidirectional"/>
+        <pin num="P" name="A10" type="bidirectional"/>
+        <pin num="R" name="R/~{W}" type="bidirectional"/>
         <pin num="S" name="PHI2" type="output"/>
       </pins>
     </libpart>
@@ -200,146 +281,152 @@
       <fields>
         <field name="Reference">L</field>
         <field name="Value">LOGO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Any valid LOGO Images can be placed here</field>
       </fields>
     </libpart>
   </libparts>
   <libraries>
-    <library logical="Connector_Generic">
-      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    <library logical="CLED1206">
+      <uri>/home/gianluca/Progetti/RetroBitLab-Library/CLED1206.kicad_sym</uri>
     </library>
-    <library logical="Device">
-      <uri>/usr/share/kicad/library/Device.lib</uri>
+    <library logical="CRES0805">
+      <uri>/home/gianluca/Progetti/RetroBitLab-Library/CRES0805.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/app/extensions/Library/symbols//Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="RetroBitLab">
-      <uri>/home/gianluca/Progetti/RetroBitLab-Library/AmigaComponents.lib</uri>
+      <uri>/home/gianluca/Progetti/RetroBitLab-Library/AmigaComponents.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/~CCTL">
-      <node ref="P3" pin="1"/>
-      <node ref="CART1" pin="15"/>
+    <net code="1" name="/A0" class="Default">
+      <node ref="CART1" pin="5" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="P1" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="2" name="Net-(D1-Pad2)">
-      <node ref="R1" pin="2"/>
-      <node ref="D1" pin="2"/>
+    <net code="2" name="/A1" class="Default">
+      <node ref="CART1" pin="4" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="P1" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="3" name="GND">
-      <node ref="CART1" pin="B"/>
-      <node ref="D1" pin="1"/>
-      <node ref="P6" pin="2"/>
+    <net code="3" name="/A2" class="Default">
+      <node ref="CART1" pin="3" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="P1" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="4" name="/A1">
-      <node ref="P1" pin="2"/>
-      <node ref="CART1" pin="4"/>
+    <net code="4" name="/A3" class="Default">
+      <node ref="CART1" pin="2" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="P1" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="5" name="/RD4">
-      <node ref="P6" pin="1"/>
-      <node ref="CART1" pin="A"/>
+    <net code="5" name="/A4" class="Default">
+      <node ref="CART1" pin="C" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="P6" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="6" name="/A4">
-      <node ref="P6" pin="3"/>
-      <node ref="CART1" pin="C"/>
+    <net code="6" name="/A5" class="Default">
+      <node ref="CART1" pin="D" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="P6" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="7" name="/A5">
-      <node ref="CART1" pin="D"/>
-      <node ref="P6" pin="4"/>
+    <net code="7" name="/A6" class="Default">
+      <node ref="CART1" pin="E" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="P6" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
-    <net code="8" name="/A6">
-      <node ref="CART1" pin="E"/>
-      <node ref="P6" pin="5"/>
+    <net code="8" name="/A7" class="Default">
+      <node ref="CART1" pin="F" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="P5" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="9" name="/A7">
-      <node ref="P5" pin="1"/>
-      <node ref="CART1" pin="F"/>
+    <net code="9" name="/A8" class="Default">
+      <node ref="CART1" pin="H" pinfunction="A8" pintype="bidirectional"/>
+      <node ref="P5" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="10" name="/A8">
-      <node ref="CART1" pin="H"/>
-      <node ref="P5" pin="2"/>
+    <net code="10" name="/A9" class="Default">
+      <node ref="CART1" pin="J" pinfunction="A9" pintype="bidirectional"/>
+      <node ref="P5" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="11" name="/A9">
-      <node ref="CART1" pin="J"/>
-      <node ref="P5" pin="3"/>
+    <net code="11" name="/A10" class="Default">
+      <node ref="CART1" pin="P" pinfunction="A10" pintype="bidirectional"/>
+      <node ref="P4" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="12" name="/A12">
-      <node ref="CART1" pin="K"/>
-      <node ref="P5" pin="4"/>
+    <net code="12" name="/A11" class="Default">
+      <node ref="CART1" pin="N" pinfunction="A11" pintype="bidirectional"/>
+      <node ref="P4" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="13" name="/D3">
-      <node ref="CART1" pin="L"/>
-      <node ref="P5" pin="5"/>
+    <net code="13" name="/A12" class="Default">
+      <node ref="CART1" pin="K" pinfunction="A12" pintype="bidirectional"/>
+      <node ref="P5" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="14" name="/A0">
-      <node ref="P1" pin="1"/>
-      <node ref="CART1" pin="5"/>
+    <net code="14" name="/D0" class="Default">
+      <node ref="CART1" pin="10" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="P2" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="15" name="/D4">
-      <node ref="P2" pin="5"/>
-      <node ref="CART1" pin="6"/>
+    <net code="15" name="/D1" class="Default">
+      <node ref="CART1" pin="9" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="P2" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="16" name="/D5">
-      <node ref="P2" pin="4"/>
-      <node ref="CART1" pin="7"/>
+    <net code="16" name="/D2" class="Default">
+      <node ref="CART1" pin="8" pinfunction="D2" pintype="passive"/>
+      <node ref="P2" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="17" name="/D2">
-      <node ref="P2" pin="3"/>
-      <node ref="CART1" pin="8"/>
+    <net code="17" name="/D3" class="Default">
+      <node ref="CART1" pin="L" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="P5" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
-    <net code="18" name="/D1">
-      <node ref="CART1" pin="9"/>
-      <node ref="P2" pin="2"/>
+    <net code="18" name="/D4" class="Default">
+      <node ref="CART1" pin="6" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="P2" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
-    <net code="19" name="/A2">
-      <node ref="P1" pin="3"/>
-      <node ref="CART1" pin="3"/>
+    <net code="19" name="/D5" class="Default">
+      <node ref="CART1" pin="7" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="P2" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="20" name="/D7">
-      <node ref="CART1" pin="M"/>
-      <node ref="P4" pin="1"/>
+    <net code="20" name="/D6" class="Default">
+      <node ref="CART1" pin="11" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="P3" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
-    <net code="21" name="/A11">
-      <node ref="P4" pin="2"/>
-      <node ref="CART1" pin="N"/>
+    <net code="21" name="/D7" class="Default">
+      <node ref="CART1" pin="M" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="P4" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="22" name="/A10">
-      <node ref="CART1" pin="P"/>
-      <node ref="P4" pin="3"/>
+    <net code="22" name="/PHI2" class="Default">
+      <node ref="CART1" pin="S" pinfunction="PHI2" pintype="output"/>
+      <node ref="P4" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
-    <net code="23" name="/R~W">
-      <node ref="CART1" pin="R"/>
-      <node ref="P4" pin="4"/>
+    <net code="23" name="/RD4" class="Default">
+      <node ref="CART1" pin="A" pinfunction="RD4" pintype="bidirectional"/>
+      <node ref="P6" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="24" name="/PHI2">
-      <node ref="CART1" pin="S"/>
-      <node ref="P4" pin="5"/>
+    <net code="24" name="/RD5" class="Default">
+      <node ref="CART1" pin="14" pinfunction="RD5" pintype="input"/>
+      <node ref="P3" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="25" name="VCC">
-      <node ref="R1" pin="1"/>
-      <node ref="CART1" pin="13"/>
-      <node ref="P3" pin="3"/>
+    <net code="25" name="/R~{W}" class="Default">
+      <node ref="CART1" pin="R" pinfunction="R/~{W}" pintype="bidirectional"/>
+      <node ref="P4" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="26" name="/~S4">
-      <node ref="CART1" pin="1"/>
-      <node ref="P1" pin="5"/>
+    <net code="26" name="/~{CCTL}" class="Default">
+      <node ref="CART1" pin="15" pinfunction="~{CCTL}" pintype="bidirectional"/>
+      <node ref="P3" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="27" name="/D0">
-      <node ref="P2" pin="1"/>
-      <node ref="CART1" pin="10"/>
+    <net code="27" name="/~{S4}" class="Default">
+      <node ref="CART1" pin="1" pinfunction="~{S4}" pintype="input"/>
+      <node ref="P1" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
-    <net code="28" name="/D6">
-      <node ref="P3" pin="5"/>
-      <node ref="CART1" pin="11"/>
+    <net code="28" name="/~{S5}" class="Default">
+      <node ref="CART1" pin="12" pinfunction="~{S5}" pintype="input"/>
+      <node ref="P3" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="29" name="/~S5">
-      <node ref="P3" pin="4"/>
-      <node ref="CART1" pin="12"/>
+    <net code="29" name="GND" class="Default">
+      <node ref="CART1" pin="B" pinfunction="GND" pintype="power_in"/>
+      <node ref="LD1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="P6" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="30" name="/RD5">
-      <node ref="P3" pin="2"/>
-      <node ref="CART1" pin="14"/>
+    <net code="30" name="Net-(LD1-A)" class="Default">
+      <node ref="LD1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="31" name="/A3">
-      <node ref="P1" pin="4"/>
-      <node ref="CART1" pin="2"/>
+    <net code="31" name="VCC" class="Default">
+      <node ref="CART1" pin="13" pinfunction="VCC" pintype="power_in"/>
+      <node ref="P3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
     </net>
   </nets>
 </export>
