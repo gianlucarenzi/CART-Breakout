@@ -211,7 +211,7 @@
       <uri>/usr/share/kicad/library/Device.lib</uri>
     </library>
     <library logical="RetroBitLab">
-      <uri>/home/gianluca/Progetti/RetroBitLab-Library/AmigaComponents.lib</uri>
+      <uri>/home/gianluca/Progetti/RetroBitLab-Library/RetroBitLab.lib</uri>
     </library>
   </libraries>
   <nets>
